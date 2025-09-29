@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>【公式】うさぎファンクラブ - むぎの部屋</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Reset */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Helvetica Neue", "Arial", sans-serif;
+            background-color: #f9f9ff;
+            color: #333;
+            line-height: 1.8;
+        }
+
+        header {
+            background-color: #664422;
+            padding: 30px 20px;
+            text-align: center;
+            border-bottom: 3px solid #f8bbd0;
+        }
+
+        header h1 {
+            color: #d81b60;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #7BBFEA;
+            font-size: 1.2em;
+        }
+
+        nav {
+            background-color: #fff0f5;
+            text-align: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #f3c0d1;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #d81b60;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #7b1fa2;
+            margin-bottom: 10px;
+            border-left: 6px solid #d1c4e9;
+            padding-left: 10px;
+            font-size: 1.8em;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 180px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .news {
+            background: #f3e5f5;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 0.95em;
+        }
+
+        .contact {
+            background-color: #fff8e1;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .contact p {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #888;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 8px;
+            }
+
+            .gallery {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ようこそ！</h1>
+        <p>うさぎファンクラブへようこそ🐰</p>
+    </header>
+
+    <nav>
+        <a href="#intro">自己紹介</a>
+        <a href="#news">最新情報</a>
+    </nav>
+
+    <main>
+        <section id="intro">
+            <h2>自己紹介</h2>
+            <p>こんにちは、ぼくは <strong>むぎ</strong> です。<br>
+            最近はぼくの陣地が狭い💢</p>
+
+            <h3>趣味</h3>
+            <ul>
+                <li>ﾁﾓﾁﾓすること</li>
+                <li>ボールころころ</li>
+                <li>おやつカリカリ</li>
+            </ul>
+        </section>
+        
+        <section id="news">
+            <h2>最新情報</h2>
+            <div class="news">
+                <ul>
+                    <li><strong>2025/06/17:</strong> ぼくは3歳の誕生日を迎えました！</li>
+                    <li><strong>2025/08/12:</strong> 新しいおやつレビューを公開しました！</li>
+                    <li><strong>2025/09/29:</strong> サイトをリニューアルしました</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 むぎの部屋 OFFICIAL</p>
+    </footer>
+
+</body>
+</html>
